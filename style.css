@@ -5,3 +5,8 @@
     --dundo-texto:#001e40;
     --borda:#0075ff;
 }
+
+body{
+    color:var(--branco);
+    background-color: var(--cor-de-fundo);
+}
