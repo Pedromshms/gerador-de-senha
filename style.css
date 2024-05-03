@@ -4,9 +4,23 @@
     --fundo-senha:#00244d;
     --dundo-texto:#001e40;
     --borda:#0075ff;
+    --roboto: 'roboto', sans-serif;
+    --roboto-mono: 'roboto mono',monospace;
 }
 
 body{
     color:var(--branco);
     background-color: var(--cor-de-fundo);
+    font-family:var(--roboto);
+}
+.conteudo-titulo{
+    texting-aling:center;
+    margin-top:80px;
+}
+.titulo-principal{
+    font-family:var(--roboto-mono);
+    font-size: 32px;;
+}
+.titulo-secundario{
+    font-size:24px;
 }
